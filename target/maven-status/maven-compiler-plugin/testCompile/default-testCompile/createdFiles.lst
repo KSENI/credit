@@ -1,0 +1,8 @@
+pages\createApplication\CreateApplicationLocators.class
+pages\applications\ApplicationsPage.class
+tests\Tests.class
+helpers\BaseHelper.class
+pages\createApplication\CreateApplicationPage.class
+pages\login\LoginPage.class
+pages\login\LoginLocators.class
+pages\applications\ApplicationsLocators.class
