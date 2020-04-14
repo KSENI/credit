@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: tests.Tests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.23 s - in tests.Tests
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 20.752 s <<< FAILURE! - in tests.Tests
+haveNotificationTextTest(tests.Tests)  Time elapsed: 8.831 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.92)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-L8VI0LR', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.92, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\Ksenia\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8b6d48680df46aab93dc771dd8145d29
+	at tests.Tests.haveNotificationTextTest(Tests.java:14)
+
+haveNewApplicationTest(tests.Tests)  Time elapsed: 11.831 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3227> but was:<3226>
+	at tests.Tests.haveNewApplicationTest(Tests.java:36)
+

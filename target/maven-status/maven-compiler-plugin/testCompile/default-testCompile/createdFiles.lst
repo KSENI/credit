@@ -4,5 +4,6 @@ tests\Tests.class
 helpers\BaseHelper.class
 pages\createApplication\CreateApplicationPage.class
 pages\login\LoginPage.class
+tests\BaseTest.class
 pages\login\LoginLocators.class
 pages\applications\ApplicationsLocators.class
